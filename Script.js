@@ -59,7 +59,7 @@ const GameContainer = document.querySelector(".container");
             else{
                 y = "Better luck Next Time 👎 !!! CPU is"
             }
-            Result.textContent = UserValue === CpuValue ? "MATCH DWAR":`${y} the WINNER !!!`
+            Result.textContent = UserValue === CpuValue ? "MATCH DRAW":`${y} the WINNER !!!`
     
             // console.log(CpuValue,UserValue);
         },2500)
