@@ -57,7 +57,7 @@ const GameContainer = document.querySelector(".container");
                 y = "Congratulations 👍 !!! You are"
             }
             else{
-                y = "Better luck Nect 👎 !!! Time CPU is"
+                y = "Better luck Next Time 👎 !!! CPU is"
             }
             Result.textContent = UserValue === CpuValue ? "MATCH DWAR":`${y} the WINNER !!!`
     
